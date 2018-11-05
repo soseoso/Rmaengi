@@ -1,0 +1,10 @@
+.introduce {
+    width: 749px;
+    background: linear-gradient(to left,#3F0038 0,#41B6C8 100%);
+    background-image: url(img/introduce.jpg);
+    opacity: 1;
+}
+
+img.arrow {
+    height: 70%;
+}
