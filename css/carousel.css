@@ -2,9 +2,10 @@
 
 /* carousel image */
 .hero-image {
-    filter: brightness(0.7);
+    filter: brightness(0.6);
 }
 
+/* caption 1 */
 .carousel-caption.caption1 {
     padding-bottom: 170px;
     text-align: left;
@@ -23,6 +24,46 @@
 .contents {
     font-family: 'Do Hyeon', sans-serif;
     font-size: 50px;
+}
+
+/* caption 2 */
+.carousel-caption.caption2 {
+    padding-bottom: 170px;
+    text-align: center;
+}
+
+.without {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.empty1 {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.empty2 {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 20px;
+}
+
+/* caption 3 */
+.carousel-caption.caption3 {
+    padding-bottom: 170px;
+    text-align: right;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+p.trinity {
+    font-size: 20px;
+}
+
+/* caption 4 */
+.carousel-caption.caption4 {
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: 'Do Hyeon', sans-serif;
 }
 /* responsive image */
 @media (min-width: 768px) and (max-width: 1024px){
