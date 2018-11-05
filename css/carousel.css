@@ -1,7 +1,55 @@
-/* .hero-text {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+/* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) */
+
+/* carousel image */
+.hero-image {
+    filter: brightness(0.5);
+}
+
+.carousel-caption.caption1 {
+    padding-bottom: 170px;
+    text-align: left;
+}
+
+/* .carousel.contents {
+    padding-bottom: 300px;
+    padding-left: 500px;    
 } */
 
-.hero-text {
-    
+.rmaengi {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 70px;
+}
+
+.contents {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 50px;
+}
+/* responsive image */
+@media (min-width: 768px) and (max-width: 1024px){
+    .rmaengi {
+        font-size: 45px;
+    }    
+    .contents {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 768px){
+    .rmaengi {
+        font-size: 30px;
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 550px){
+    .carousel {
+        height: 50%;
+    }
+
+    .rmaengi {
+        font-size: 15px;
+    }
+    .contents {
+        font-size: 10px;
+    }
 }
