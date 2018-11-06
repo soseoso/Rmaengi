@@ -1,6 +1,8 @@
-ul {
+ul.nav {
     padding: 15px;
     background-color: #fbfdfd;
+    border-bottom: solid;
+    border-bottom-color: #f04242;
 }
 
 .nav {

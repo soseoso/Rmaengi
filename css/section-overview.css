@@ -1,0 +1,54 @@
+/* four box alignment */
+section.overview {
+    border-top: solid;
+    border-top-color: #f04242;
+    background-color: #67aeca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 3rem;
+}
+
+ul.overview-page__list {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;    /* 넓이 존중 */
+    max-width: 1500px;
+    padding-bottom: 1rem;
+}
+
+li.overview-page__list-item {
+    width: calc(50% - 2rem);
+    list-style-type: none;
+}
+
+/* one box inner alignment */
+div.overview-flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding-bottom: 2rem;
+}
+
+/* icon css */
+div.overview-icon {
+    padding-top: 1.5rem;
+    width: 7rem;
+}
+
+/* list-item, info text division css */
+div.list-item__info {
+    padding-left: 1rem;
+}
+
+/* text css */
+h4.info-title {
+    font-family: 'Do Hyeon', sans-serif;
+    color: white;
+}
+
+p.info-desc {
+    font-family: 'Poor Story', sans-serif;
+    color: whitesmoke;
+}

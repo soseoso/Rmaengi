@@ -1,6 +1,7 @@
-.member {
+section.member {
     background-color: #fbfdfd;
     padding: 40px;
+    
 }
 
 .flex-container {
@@ -11,12 +12,8 @@
     align-items: center;
 }  
 
-div.member-circle {
-}
-
 img.rounded-circle {
     width: 18rem;
-    background-color: rgb(195, 226, 221);
     opacity: 0.7;
 }
 
