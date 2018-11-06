@@ -2,6 +2,8 @@
 section.overview {
     border-top: solid;
     border-top-color: #f04242;
+    border-bottom: solid;
+    border-bottom-color: #00303f;
     background-color: #67aeca;
     display: flex;
     justify-content: center;

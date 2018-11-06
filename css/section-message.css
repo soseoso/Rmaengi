@@ -2,7 +2,6 @@
     background-color: #f04242;
     color: #cbeaed;
     padding: 5px;
-    font-family: 'Poor Story', cursive;
 }
 
 .message-header {
@@ -12,6 +11,24 @@
 }
 
 .message-subheader {
+    font-family: 'Nanum Brush Script', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+.message2 {
+    background: #fbfbfb;
+    color: #00303f;
+    padding: 5px;
+}
+
+.message2-header {
+    font-family: 'Nanum Brush Script', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+.message2-subheader {
     font-family: 'Nanum Brush Script', cursive;
     text-align: center;
     font-size: 30px;
