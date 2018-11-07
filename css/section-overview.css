@@ -36,7 +36,6 @@ div.overview-flex-container {
 /* icon css */
 div.overview-icon {
     padding-top: 1.5rem;
-    width: 7rem;
 }
 
 /* list-item, info text division css */
@@ -85,7 +84,7 @@ p.info-desc {
 
     /* icon css */
     div.overview-icon {
-        align-items: center;
+        padding-left: 50px;
         width: 2rem;
     }
 
