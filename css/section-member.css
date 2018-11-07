@@ -1,7 +1,6 @@
 section.member {
     background-color: #fbfdfd;
     padding: 40px;
-    
 }
 
 .flex-container {
@@ -21,11 +20,29 @@ img.member-circle2 {
     margin: 0 45px 0;
 }
 
-@media (max-width: 768px) {
-    .flex-container {
-        display: block;
-        justify-content: center;
-        align-items: center;
+@media (min-width: 551px) and (max-width: 768px){
+    section.member {
+        background-color: #fbfdfd;
+        padding: 30px;
+    }
+    img.rounded-circle {
+        width: 12rem;
+    }
+    img.member-circle2 {
+        margin: 0 38px 0;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 550px){
+    section.member {
+        background-color: #fbfdfd;
+        padding: 30px;
+    }
+    img.rounded-circle {
+        width: 8rem;
+    }
+    img.member-circle2 {
+        margin: 0 30px 0;
     }
 }
   

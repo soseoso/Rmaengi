@@ -54,3 +54,42 @@ p.info-desc {
     font-family: 'Poor Story', sans-serif;
     color: whitesmoke;
 }
+
+@media (min-width: 0px) and (max-width: 550px){
+    section.overview {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-top: 1rem;
+    }
+
+    ul.overview-page__list {
+        display: block;
+        max-width: 1500px;
+        padding-bottom: 1rem;
+    }
+
+    li.overview-page__list-item {
+        width: 100%;
+        list-style-type: none;
+    }
+
+    /* one box inner alignment */
+    div.overview-flex-container {
+        display: block;
+        padding-bottom: 1rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+    /* icon css */
+    div.overview-icon {
+        align-items: center;
+        width: 2rem;
+    }
+
+    div.list-item__info {
+        padding: auto;
+    }
+}
