@@ -2,6 +2,16 @@ section.photo-bomb {
     background-color: #001a22;
 }
 
+div.photo-contact {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h1.contact {
+    font-family: 'Do Hyeon', sans-serif;
+    color: white;
+}
+
 div.photo-line {
     display: flex;
     flex-wrap: nowrap;
@@ -11,8 +21,13 @@ div.photo-line {
 }
 
 div.photo {
-    margin: 0 90px 0;
+    margin: 0 10px 0;
 }
+
+div.line2 {
+    margin: 30px 15px 10px;
+}
+
 
 div.photo img.rounded-circle {
     width: 6rem;
