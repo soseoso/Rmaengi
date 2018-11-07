@@ -188,7 +188,7 @@ p.trinity {
 
     /* caption1 */
     .carousel-caption.caption1 {
-        padding-bottom: 90px;
+        padding-bottom: 50px;
         text-align: left;
     }
 
@@ -201,14 +201,14 @@ p.trinity {
 
     /* caption 2 */
     .carousel-caption.caption2 {
-        padding-bottom: 90px;
+        padding-bottom: 30px;
         text-align: center;
     }
 
     .without {
         font-family: 'Do Hyeon', sans-serif;
         font-size: 15px;
-        padding-bottom: 20px;
+        padding-bottom: 5px;
     }
 
     .empty1 {
@@ -222,24 +222,27 @@ p.trinity {
     }
     /* caption 3 */
     .carousel-caption.caption3 {
-        padding-bottom: 70px;
+        padding-bottom: 20px;
         text-align: right;
         font-family: 'Do Hyeon', sans-serif;
     }
 
     .carousel-caption.caption3 h1 {
-        font-size: 15px;
+        font-size: 10px;
     }
 
     p.trinity {
-        font-size: 15px;
+        font-size: 10px;
     }
 
     /* caption 4 */
     .carousel-caption.caption4 {
-        padding-bottom: 40px;
+        padding-bottom: 10px;
         text-align: center;
         font-family: 'Do Hyeon', sans-serif;
+    }
+
+    .carousel-caption.caption4 h1 {
         font-size: 15px;
     }
 }
