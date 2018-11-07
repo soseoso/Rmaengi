@@ -33,3 +33,29 @@
     text-align: center;
     font-size: 30px;
 }
+
+@media (min-width: 0px) and (max-width: 550px){
+    .message {
+        padding: 3px;
+    }
+
+    .message-header {
+        font-size: 25px;
+    }
+    
+    .message-subheader {
+        font-size: 15px;
+    }
+
+    .message2 {
+        padding: 3px;
+    }
+
+    .message2-header {
+        font-size: 25px;
+    }
+    
+    .message2-subheader {
+        font-size: 15px;
+    }
+}

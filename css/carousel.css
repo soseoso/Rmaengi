@@ -188,7 +188,7 @@ p.trinity {
 
     /* caption1 */
     .carousel-caption.caption1 {
-        padding-bottom: 50px;
+        padding-bottom: 60px;
         text-align: left;
     }
 
@@ -201,7 +201,7 @@ p.trinity {
 
     /* caption 2 */
     .carousel-caption.caption2 {
-        padding-bottom: 35px;
+        padding-bottom: 50px;
         text-align: center;
     }
 
@@ -214,7 +214,7 @@ p.trinity {
     .empty1 {
         font-family: 'Do Hyeon', sans-serif;
         font-size: 10px;
-        padding-bottom: 5px;
+        padding-bottom: 3px;
     }
     .empty2 {
         font-family: 'Do Hyeon', sans-serif;

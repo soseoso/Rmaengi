@@ -34,8 +34,12 @@ div.line2 {
     margin: 30px 15px 10px;
 }
 
-
 div.photo img.rounded-circle {
     width: 6rem;
     /* padding-right: 4rem; */
+}
+
+
+@media (min-width: 0px) and (max-width: 550px){
+
 }
