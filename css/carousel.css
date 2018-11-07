@@ -201,14 +201,14 @@ p.trinity {
 
     /* caption 2 */
     .carousel-caption.caption2 {
-        padding-bottom: 30px;
+        padding-bottom: 35px;
         text-align: center;
     }
 
     .without {
         font-family: 'Do Hyeon', sans-serif;
         font-size: 15px;
-        padding-bottom: 5px;
+        padding-bottom: 10px;
     }
 
     .empty1 {
@@ -218,17 +218,17 @@ p.trinity {
     }
     .empty2 {
         font-family: 'Do Hyeon', sans-serif;
-        font-size: 5px;
+        font-size: 10px;
     }
     /* caption 3 */
     .carousel-caption.caption3 {
-        padding-bottom: 20px;
+        padding-bottom: 50px;
         text-align: right;
         font-family: 'Do Hyeon', sans-serif;
     }
 
     .carousel-caption.caption3 h1 {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     p.trinity {
