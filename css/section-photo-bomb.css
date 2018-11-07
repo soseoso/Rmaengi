@@ -1,6 +1,12 @@
 section.photo-bomb {
     background-color: #001a22;
 }
+/* 
+div.photo-border {
+    border: solid;
+    border-color: white;
+    margin: 10px;
+} */
 
 div.photo-contact {
     text-align: center;

@@ -62,21 +62,122 @@ p.trinity {
 }
 
 /* responsive image */
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 769px) and (max-width: 1024px){
+    .carousel {
+        height: 80%;
+    }
+    /* caption1 */
+    .carousel-caption.caption1 {
+        padding-bottom: 150px;
+        text-align: left;
+    }
+
     .rmaengi {
         font-size: 45px;
     }    
     .contents {
         font-size: 25px;
     }
+
+    /* caption 2 */
+    .carousel-caption.caption2 {
+        padding-bottom: 120px;
+        text-align: center;
+    }
+
+    .without {
+        font-family: 'Do Hyeon', sans-serif;
+        font-size: 40px;
+        padding-bottom: 40px;
+    }
+
+    .empty1 {
+        font-family: 'Do Hyeon', sans-serif;
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    .empty2 {
+        font-family: 'Do Hyeon', sans-serif;
+        font-size: 20px;
+    }
+    /* caption 3 */
+    .carousel-caption.caption3 {
+        padding-bottom: 120px;
+        text-align: right;
+        font-family: 'Do Hyeon', sans-serif;
+    }
+
+    p.trinity {
+        font-size: 20px;
+    }
+
+    /* caption 4 */
+    .carousel-caption.caption4 {
+        padding-bottom: 40px;
+        text-align: center;
+        font-family: 'Do Hyeon', sans-serif;
+    }
 }
 
-@media (min-width: 550px) and (max-width: 768px){
+@media (min-width: 551px) and (max-width: 768px){
+    .carousel {
+        height: 60%;
+    }
+    /* caption1 */
+    .carousel-caption.caption1 {
+        padding-bottom: 90px;
+        text-align: left;
+    }
+
     .rmaengi {
-        font-size: 30px;
+        font-size: 20px;
     }
     .contents {
-        font-size: 17px;
+        font-size: 10px;
+    }
+
+    /* caption 2 */
+    .carousel-caption.caption2 {
+        padding-bottom: 90px;
+        text-align: center;
+    }
+
+    .without {
+        font-family: 'Do Hyeon', sans-serif;
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+
+    .empty1 {
+        font-family: 'Do Hyeon', sans-serif;
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
+    .empty2 {
+        font-family: 'Do Hyeon', sans-serif;
+        font-size: 5px;
+    }
+    /* caption 3 */
+    .carousel-caption.caption3 {
+        padding-bottom: 70px;
+        text-align: right;
+        font-family: 'Do Hyeon', sans-serif;
+    }
+
+    .carousel-caption.caption3 h1 {
+        font-size: 15px;
+    }
+
+    p.trinity {
+        font-size: 15px;
+    }
+
+    /* caption 4 */
+    .carousel-caption.caption4 {
+        padding-bottom: 40px;
+        text-align: center;
+        font-family: 'Do Hyeon', sans-serif;
+        font-size: 15px;
     }
 }
 
@@ -85,14 +186,60 @@ p.trinity {
         height: 50%;
     }
 
+    /* caption1 */
     .carousel-caption.caption1 {
-        padding-bottom: 70px;
+        padding-bottom: 90px;
         text-align: left;
     }
+
     .rmaengi {
-        font-size: 30px;
+        font-size: 20px;
     }
     .contents {
-        font-size: 17px;
+        font-size: 10px;
+    }
+
+    /* caption 2 */
+    .carousel-caption.caption2 {
+        padding-bottom: 90px;
+        text-align: center;
+    }
+
+    .without {
+        font-family: 'Do Hyeon', sans-serif;
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+
+    .empty1 {
+        font-family: 'Do Hyeon', sans-serif;
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
+    .empty2 {
+        font-family: 'Do Hyeon', sans-serif;
+        font-size: 5px;
+    }
+    /* caption 3 */
+    .carousel-caption.caption3 {
+        padding-bottom: 70px;
+        text-align: right;
+        font-family: 'Do Hyeon', sans-serif;
+    }
+
+    .carousel-caption.caption3 h1 {
+        font-size: 15px;
+    }
+
+    p.trinity {
+        font-size: 15px;
+    }
+
+    /* caption 4 */
+    .carousel-caption.caption4 {
+        padding-bottom: 40px;
+        text-align: center;
+        font-family: 'Do Hyeon', sans-serif;
+        font-size: 15px;
     }
 }
