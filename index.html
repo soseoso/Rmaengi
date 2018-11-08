@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="naver-site-verification" content="8bd459e45baa98a6532e87e2d4fc94b8684ea80f"/>
+    <meta name="naver-site-verification" content="8bd459e45baa98a6532e87e2d4fc94b8684ea80f" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -104,7 +104,7 @@
             <li class="overview-page__list-item">
                 <div class="overview-flex-container">
                     <div class="overview-icon">
-                        <i id="overview-icon" class="fas fa-user-friends fa-5x" style="color:wheat"></i>
+                        <i id="overview-icon1" class="fas fa-user-friends fa-5x" style="color:wheat"></i>
                     </div>
                     <div class="list-item__info">
                         <h4 class="info-title">멤버 구성</h4>
@@ -117,10 +117,10 @@
             <li class="overview-page__list-item">
                 <div class="overview-flex-container">
                     <div class="overview-icon">
-                        <i id="overview-icon" class="fas fa-birthday-cake fa-5x" style="color:wheat"></i>
+                        <i id="overview-icon2" class="fas fa-birthday-cake fa-5x" style="color:wheat"></i>
                     </div>
                     <div class="list-item__info">
-                        <h4 class="info-title">정말로 수고했어요</h4>
+                        <h4 class="info-title">정말로<br>수고했어요</h4>
                         <p class="info-desc">
                             알맹이가 매년 정기적으로 하는 활동들이 있는데, 그 중의 하나는 연말, 연초에 수능을 마친 고3학생들, 대학에 입학하는 새내기들을 위해 축하 파티를 여는 거예요. 꼭 멤버가 되지 않더라도, 많은 분들이 와서 서로의 사연을
                             이야기하며 인연을 쌓아요.
@@ -131,10 +131,10 @@
             <li class="overview-page__list-item">
                 <div class="overview-flex-container">
                     <div class="overview-icon">
-                        <i id="overview-icon" class="fas fa-smile-wink fa-5x" style="color:wheat"></i>
+                        <i id="overview-icon3" class="fas fa-smile-wink fa-5x" style="color:wheat"></i>
                     </div>
                     <div class="list-item__info">
-                        <h4 class="info-title">우리가 모여서 하는 일</h4>
+                        <h4 class="info-title">우리가 모여서<br>하는 일</h4>
                         <p class="info-desc">
                             컨텐츠 기획, 영상 제작, 음악회 열기, 서비스 개발, 사업 모델 발굴, 플리 마켓, 전공 교류 등 스펙에 도움이 되는 활동부터 과제 함께 하기, 배구, 취미 생활 공유하기, 여행하기 등 인생의 전환기를 맞이하는 우리에게
                             활기를 불어넣는 활동을 함께 해요.
@@ -145,7 +145,7 @@
             <li class="overview-page__list-item">
                 <div class="overview-flex-container">
                     <div class="overview-icon">
-                        <i id="overview-icon" class="fas fa-hand-holding-heart fa-5x" style="color:wheat"></i>
+                        <i id="overview-icon4" class="fas fa-hand-holding-heart fa-5x" style="color:wheat"></i>
                     </div>
                     <div class="list-item__info">
                         <h4 class="info-title">걱정 말아요</h4>
@@ -214,10 +214,34 @@
         $(window).resize(function () {
             var width_size = $(window).width();
             if (width_size < 550) {
-                $('#overview-icon').addClass('fa-3x').removeClass('fa-5x');
+                $('#overview-icon1').addClass('fa-3x').removeClass('fa-5x');
+                $('#overview-icon2').addClass('fa-3x').removeClass('fa-5x');
+                $('#overview-icon3').addClass('fa-3x').removeClass('fa-5x');
+                $('#overview-icon4').addClass('fa-3x').removeClass('fa-5x');
             }
             else {
-                $('#overview-icon').addClass('fa-5x').removeClass('fa-3x');
+                $('#overview-icon1').addClass('fa-5x').removeClass('fa-3x');
+                $('#overview-icon2').addClass('fa-5x').removeClass('fa-3x');
+                $('#overview-icon3').addClass('fa-5x').removeClass('fa-3x');
+                $('#overview-icon4').addClass('fa-5x').removeClass('fa-3x');
+            }
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            /* Check width on page load*/
+            if ($(window).width() < 550) {
+                $('#overview-icon1').addClass('fa-3x').removeClass('fa-5x');
+                $('#overview-icon2').addClass('fa-3x').removeClass('fa-5x');
+                $('#overview-icon3').addClass('fa-3x').removeClass('fa-5x');
+                $('#overview-icon4').addClass('fa-3x').removeClass('fa-5x');
+            }
+            else {
+                $('#overview-icon1').addClass('fa-5x').removeClass('fa-3x');
+                $('#overview-icon2').addClass('fa-5x').removeClass('fa-3x');
+                $('#overview-icon3').addClass('fa-5x').removeClass('fa-3x');
+                $('#overview-icon4').addClass('fa-5x').removeClass('fa-3x');
             }
         });
     </script>

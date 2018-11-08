@@ -57,8 +57,8 @@ p.info-desc {
 @media (min-width: 0px) and (max-width: 550px){
     section.overview {
         display: block;
-        justify-content: center;
-        align-items: center;
+        justify-content: left;
+        align-items: left;
         width: 100%;
         padding-top: 1rem;
     }
@@ -70,7 +70,7 @@ p.info-desc {
     }
 
     li.overview-page__list-item {
-        width: 100%;
+        width: 90%;
         list-style-type: none;
     }
 
@@ -78,7 +78,7 @@ p.info-desc {
     div.overview-flex-container {
         display: block;
         padding-bottom: 1rem;
-        justify-content: center;
+        justify-content: left;
         text-align: center;
     }
 
