@@ -54,6 +54,7 @@ p.info-desc {
     color: whitesmoke;
 }
 
+
 @media (min-width: 0px) and (max-width: 550px){
     section.overview {
         display: block;
